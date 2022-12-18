@@ -15,7 +15,7 @@ namespace DesignPattern.Template.TemplateDesignPattern
 
         protected override string SetImage()
         {
-            return $"<img class='car-img-top' src='{AppUser.Image}'  style='width:355.99px; height:350.8px;'>";
+            return $"<img class='car-img-top' src='{AppUser.Image}'  style='width:150px; height:150px;'>";
         }
     }
 }
